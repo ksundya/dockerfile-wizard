@@ -15,19 +15,15 @@ image_config: &image_config
 
   LINUX_VERSION: DEBIAN_JESSIE
 
-  RUBY_VERSION_NUM: # pick a version from https://cache.ruby-lang.org/pub/ruby
+ 
 
-  NODE_VERSION_NUM: # pick a version from https://nodejs.org/dist
+  JAVA: false
 
-  PYTHON_VERSION_NUM: # pick a version from https://python.org/ftp/python
+  MYSQL_CLIENT: false
 
-  JAVA: # Java options: true, false
+  POSTGRES_CLIENT: false
 
-  MYSQL_CLIENT: # MySQL options: true, false
-
-  POSTGRES_CLIENT: # Postgres options: true, false
-
-  DOCKERIZE: # Dockerize options: true, false
+  DOCKERIZE: false
 
   BROWSERS: true
 
